@@ -19,8 +19,4 @@ A shell script for Linux distributions that automates a number of administration
 |Disable User|Yes|Disable the targeted user. Will be prompted to enter the username to be disabled.|
 |Enable User|Yes|Enable the targeted user. Will be prompted to enter the username to be enabled.|
 |Change Password for User|Yes|Changes the password for the targeted user to a randomly generated one. New password will be set to expired to force the user to change it on first log in.|
-|List Attached Storage Devices|No|Will list the attached storage devices of type `disk` or `partition`. Information displayed:
-* Name
-* Size
-* Type
-* Mountpoint|
+|List Attached Storage Devices|No|Will list the attached storage devices of type `disk` or `partition`. Information displayed:<ul><li>Name</li><li>Size</li><li>Type</li><li>Mountpoint</li>|
