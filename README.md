@@ -13,3 +13,10 @@ A shell script for Linux distributions that automates a number of administration
 |Method|Root Privileges|Description|
 |------|:-------------:|-----------|
 |Set Remote Host|No|Set the remote host where the admin tasks are to be performed. Host will be pinged and if successful a SSH connection will be made.|
+|Display List of Users|Yes|Display a list of non-system users n the current host.|
+|Add a New User|Yes|Create a new user. Will be prompted for a username and comment. A randomly generated password will be assigned to the new user which will be expired forcing the user to change it on forst log in. Default password size is 8 characters. This default can be changed using the -p option.|
+|Delete a User|Yes|Delete a user account. Will prompted to enter username for deletion. Home directory of the user will also be removed.|
+|Disable User|Yes|Disable the targeted user. Will be prompted to enter the username to be disabled.|
+|Enable User|Yes|Enable the targeted user. Will be prompted to enter the username to be enabled.|
+|Change Password for User|Yes|Changes the password for the targeted user to a randomly generated one. New password will be set to expired to force the user to change it on first log in.|
+|List Attached Storage Devices|No|Will list the attached storage devices of type `disk` or `partition`. Information shown: * Name * Size * Type * Mountpoint|
