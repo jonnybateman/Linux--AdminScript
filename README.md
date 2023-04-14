@@ -22,4 +22,4 @@ A shell script for Linux distributions that automates a number of administration
 |List Attached Storage Devices|No|Will list the attached storage devices of type `disk` or `partition`. Information displayed:<ul><li>Name</li><li>Size</li><li>Type</li><li>Mountpoint</li></ul>|
 |Mount Local Drive|Yes|Mount a disk or partition. Will be prompted for the disk/partition name and the mountpoint directory. The created mountpoint directory will be a sub-directory of `/media/`.|
 |Unmount Local Drive|Yes|Unmount an attached local drive. You will be prompted for the drive name to unmounted. The associated mountpoint directory will be deleted.|
-|Mount Network Shared Drive|Yes|Lists available network storage devices then prompts the user to enter the network device to be mounted. The mountpoint directory will also be asked for. The mountpoint directory created will be a sub-directory of `/media`.|
+|Mount Network Shared Drive|Yes|Lists available network storage devices then prompts the user to enter the network device to be mounted. The mountpoint directory will also be asked for. The mountpoint directory created will be a sub-directory of `/media/`.|
